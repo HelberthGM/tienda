@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <nav class="navbar row">
+      <div class="col-12 col-md-3">
+        <div class="navbar-brand inside">
+            <img src={logo} alt="Team Teach Store Logo" class="logo" />
+          <a href=""></a>
+            <h4 id="text">Team Teach Store</h4>
+          </Link>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 mt-md-0">
+        <div class="input-group">
+          <input
+            type="text"
+            id="search_field"
+            class="form-control"
+            placeholder="Search product..."
+          />
+          <div class="input-grup-append">
+            <button id="search-btn" class="btn btna">
+              <i
+                class="fa fa-search fa-lg text-white"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 mt-4 mt-md-0 text-center">
+        <span>
+          <a href="login.html"></a>
+            <button type="button" class="btn btn-warning ml-1 btnl">LogIn</button>
+          </Link>
+        </span>
+        <a href="carrito.html"></a>
+          <i class="fa fa-shopping-cart fa-lg text-white" aria-hidden="true"></i>
+          <span class="ml-1" id="cart_count btnl">2</span>
+        </Link>
+      </div>
+    
+    </nav>
+    <!-- Content -->
+     <div className="carrito">
+            <h2>Su carrito</h2>
+            <div className="carrito_center">
+                <div className="carrito_item">
+                    <img src={Card} alt=""/>
+                    <div>
+                        <h3>Portátil Dell Vostro 3400</h3>
+                        <p className="price">$2.500.000</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        <p className="cantidad">1</p>
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </div>
+                    <div className="remove_item">
+                        <i class="fa fa-trash  fa-3x" aria-hidden="true"></i>
+                    </div>
+                </div> 
+
+                <div className="carrito_item">
+                    <img src={Card} alt=""/>
+                    <div>
+                        <h3>Portátil Dell Vostro 3400</h3>
+                        <p className="price">$2.500.000</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        <p className="cantidad">1</p>
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </div>
+                    <div className="remove_item">
+                        <i class="fa fa-trash fa-3x" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div className="carrito_item">
+                    <img src={Card} alt=""/>
+                    <div>
+                        <h3>Portátil Dell Vostro 3400</h3>
+                        <p className="price">$2.500.000</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        <p className="cantidad">1</p>
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </div>
+                    <div className="remove_item">
+                        <i class="fa fa-trash fa-3x" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div className="carrito_footer">
+                <h3> Total: $2.500.000 </h3>
+                <button className="btn">Ir a pagar</button>
+            </div>
+        </div>
+</body>
+</html>
