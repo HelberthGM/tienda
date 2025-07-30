@@ -1,12 +1,12 @@
 html,
 body {
-  font-family: 'Amazon Ember';
+  font-family: 'Segoe UI';
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background-color: #DEF5E5;
+  background-color: #f6faff;
 }
 
 /* Scroll Bar */
@@ -738,8 +738,8 @@ ul.CTAs a {
 
 #contenedor {
   display: flex;
-     justify-content: center;
-     align-items: center; 
+  justify-content: center;
+  align-items: center;
   margin: auto;
   padding: 0;
   min-width: 100vw;
@@ -763,16 +763,11 @@ ul.CTAs a {
 #login {
   width: 100%;
   padding: 50px 30px;
-  background-color: #BCEAD5;
-  
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
   box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
-  
-  border-radius: 3px 3px 3px 3px;
-  -moz-border-radius: 3px 3px 3px 3px;
-  -webkit-border-radius: 3px 3px 3px 3px;
-  
+  border-radius: 15px; 
   box-sizing: border-box;
 }
 
@@ -791,6 +786,7 @@ ul.CTAs a {
   box-sizing: border-box;
   
   border: none;
+  border-bottom: 1px solid #bdbdbd;
   border-radius: 3px 3px 3px 3px;
   -moz-border-radius: 3px 3px 3px 3px;
   -webkit-border-radius: 3px 3px 3px 3px;
@@ -804,7 +800,9 @@ ul.CTAs a {
 #login button {
   font-family: 'Overpass', sans-serif;
   font-size: 110%;
-  color:#000000;
+  font-weight: 600;
+  
+  color:#ffffff;
   width: 100%;
   height: 40px;
   border: none;
@@ -813,13 +811,14 @@ ul.CTAs a {
   -moz-border-radius: 3px 3px 3px 3px;
   -webkit-border-radius: 3px 3px 3px 3px;
   
-  background-color: #0f4c75;
+  background-color: #0099ff;
+  cursor: pointer;
   
   margin-top: 10px;
 }
 
 #login button:hover {
-  background-color: #0099ff;
+  background-color: #2aa9fd;
   color:white;
 }
 
