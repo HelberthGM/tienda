@@ -48,24 +48,12 @@ f #search_field {
 
 #login_btn,
 #view_btn {
-  background-color: #febd69;
+  background-color: #007bcc;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
 }
 
-#cart {
-  font-size: 1rem;
-  color: white;
-}
 
-#cart_count {
-  background-color: #febd69;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.2rem;
-  color: black;
-  font-weight: bold;
-  font-size: 0.9rem;
-}
 
 /* Home page */
 #products_heading {
@@ -94,7 +82,7 @@ f #search_field {
 }
 
 #view_btn {
-  background-color: #fa9c23;
+  background-color: #007bcc;
   color: white;
 }
 
@@ -112,6 +100,15 @@ f #search_field {
   font-size: 0.85rem;
   color: grey;
   margin-left: 0.5rem;
+}
+
+#encabezado_pdts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.8rem;
+  font-weight: bold;
+  color: #00233a;
 }
 
 /* Footer */

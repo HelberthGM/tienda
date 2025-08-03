@@ -1,6 +1,6 @@
 .navbar {
-    background-color: #072227;
-    color: #AEFEFF;
+    background-color: #007bcc;
+    color: #ffffff;
 }
 
 .inside{
@@ -36,3 +36,50 @@ a:visited, a:active {
     text-decoration:none;
     color: #AEFEFF;
 }
+
+/* Login styling - make icon and text white */
+.navbar a[href="login.html"] {
+    color: white !important;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.navbar a[href="login.html"] svg {
+    fill: white;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.navbar a[href="login.html"]:hover {
+    color: #AEFEFF !important;
+}
+
+.navbar a[href="login.html"]:hover svg {
+    fill: #AEFEFF;
+    color: #AEFEFF;
+}
+
+
+#cart {
+    font-size: 1rem;
+    text-decoration: none;;
+}
+  
+#cart_count {
+    background-color: #ffffff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+#logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
