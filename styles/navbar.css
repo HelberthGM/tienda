@@ -34,7 +34,17 @@
 
 a:visited, a:active {
     text-decoration:none;
-    color: #AEFEFF;
+}
+
+#logo_container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#logo_container:hover {
+    cursor: pointer;
 }
 
 /* Login styling - make icon and text white */
@@ -51,14 +61,6 @@ a:visited, a:active {
     height: 2.5rem;
 }
 
-.navbar a[href="login.html"]:hover {
-    color: #AEFEFF !important;
-}
-
-.navbar a[href="login.html"]:hover svg {
-    fill: #AEFEFF;
-    color: #AEFEFF;
-}
 
 
 #cart {

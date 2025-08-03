@@ -666,8 +666,8 @@ ul.CTAs a {
     grid-template-columns: 1fr 2fr 1fr 1fr;
     width: 100%;
     margin: 1rem auto;
-    box-shadow: 0 1px 10px #999999;
-    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
+    border-radius: 10px;
   }
   
   .carrito_item div{
@@ -751,7 +751,7 @@ ul.CTAs a {
   font-size: 3.8rem;
   color: #00233a;
   margin-top: 2.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   }
 
 /*-------------------------LOGIN------------------------*/
