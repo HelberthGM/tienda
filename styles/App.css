@@ -101,6 +101,8 @@ f #search_field {
   object-position: center;
 }
 
+
+
 .ratings {
   font-size: 1.2rem;
   color: #fdcc0d;
@@ -663,8 +665,8 @@ ul.CTAs a {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
     width: 100%;
-    margin: 2rem auto;
-    box-shadow: 0 1px 10px #35858B;
+    margin: 1rem auto;
+    box-shadow: 0 1px 10px #999999;
     border-radius: 5px;
   }
   
@@ -687,7 +689,7 @@ ul.CTAs a {
 }
   
   .carrito_item .price{
-    color: #00ABB3;
+    color: #000000;
     font-size: 1.8rem;
     font-weight: bold;
     text-align: start;
@@ -744,6 +746,14 @@ ul.CTAs a {
     background-color: #AEFEFF;
     color: #072227;
   }
+
+  #encabezado_carrito {
+  font-weight: bold;
+  font-size: 3.8rem;
+  color: #00233a;
+  margin-top: 2.8rem;
+  margin-bottom: 2rem;
+}
 
 /*-------------------------LOGIN------------------------*/
 
