@@ -81,5 +81,8 @@ a:visited, a:active {
     height: 2rem;
 }
 
+#logo_container {
+    margin-left: 1rem;
+}
 
 
