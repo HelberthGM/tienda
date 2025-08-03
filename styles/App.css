@@ -733,9 +733,9 @@ ul.CTAs a {
   
   .carrito_footer .btn{
     display: inline-block;
-    padding: .3rem 1rem;
+    padding: .5rem 1rem;
     font-size: 1.2rem;
-    background-color: #4FBDBA;
+    background-color: #007bcc;
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -743,8 +743,7 @@ ul.CTAs a {
   }
   
   .carrito_footer .btn:hover{
-    background-color: #AEFEFF;
-    color: #072227;
+    background-color: #368cc5;
   }
 
   #encabezado_carrito {
@@ -753,7 +752,7 @@ ul.CTAs a {
   color: #00233a;
   margin-top: 2.8rem;
   margin-bottom: 2rem;
-}
+  }
 
 /*-------------------------LOGIN------------------------*/
 
