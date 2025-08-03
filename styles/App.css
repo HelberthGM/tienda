@@ -62,6 +62,14 @@ f #search_field {
 
 .card {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-title a {
@@ -87,8 +95,10 @@ f #search_field {
 }
 
 .card-img-top {
-  width: 200px;
-  height: 150px;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
 }
 
 .ratings {
@@ -108,6 +118,7 @@ f #search_field {
   align-items: center;
   margin-top: 2.8rem;
   font-weight: bold;
+  font-size: 3.5rem;
   color: #00233a;
 }
 
@@ -126,6 +137,8 @@ footer {
   position: relative;
   font-family: FontAwesome;
   color: #fdcc0d;
+  -webkit-text-stroke: 0.5px black;
+  text-stroke: 0.5px black;
 }
 
 .rating-outer::before {
@@ -138,12 +151,14 @@ footer {
   left: 0;
   white-space: nowrap;
   overflow: hidden;
-  width: 0;
+  width: 90%;
 }
 
 .rating-inner::before {
   content: '\f005 \f005 \f005 \f005 \f005';
   color: #f8ce0b;
+  -webkit-text-stroke: 0.5px black;
+  text-stroke: 0.5px black;
 }
 
 /* Product Details Page */
@@ -364,7 +379,7 @@ footer {
   clear: both;
   margin: 20px auto;
   width: auto;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   overflow: auto;
 }
 
@@ -665,12 +680,12 @@ ul.CTAs a {
   }
   
   .carrito_item h3{
-    margin-top: 1.5rem;
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: Helvetica, sans-serif;
-    text-align: justify;
-  }
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: justify;
+}
   
   .carrito_item .price{
     color: #00ABB3;
@@ -769,7 +784,7 @@ ul.CTAs a {
 }
 
 #login input {
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 110%;
   color: hwb(0 0% 100%);
   
@@ -790,12 +805,12 @@ ul.CTAs a {
 }
 
 #login input::placeholder {
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   color: #00000070;
 }
 
 #login button {
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 110%;
   font-weight: 600;
   
