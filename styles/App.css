@@ -1132,3 +1132,8 @@ ul.CTAs a {
   font-size: 1.2rem;
   margin-left: 0.7rem;
 }
+
+#client_name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
