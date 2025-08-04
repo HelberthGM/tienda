@@ -88,4 +88,11 @@ a:visited, a:active {
     cursor: pointer;
 }
 
+.logo-span {
+  display: block;              /* h4 es un bloque, span no, así que lo igualamos */
+  font-size: 1.17em;           /* tamaño por defecto de un h4 */
+  font-weight: bold;           /* h4 es negrita por defecto */
+  margin-top: 1.33em;          /* margen por defecto de h4 */
+  margin-bottom: 1.33em;
+}
 
