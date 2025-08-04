@@ -36,6 +36,16 @@ a:visited, a:active {
     text-decoration:none;
 }
 
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 #logo_container {
     display: flex;
     align-items: center;
