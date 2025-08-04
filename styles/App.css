@@ -1120,3 +1120,15 @@ ul.CTAs a {
     font-size: 1.3rem;
   }
 }
+
+/*-------------------------PRODUCTO------------------------*/
+
+#product_name{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#reviews_count {
+  font-size: 1.2rem;
+  margin-left: 0.7rem;
+}
