@@ -124,13 +124,76 @@ f #search_field {
   color: #00233a;
 }
 
+.reviews{
+  padding-bottom: 1.5rem;
+}
+
+.reviews h4 {
+  font-weight: bold;
+  color: #007bcc;
+  margin-bottom: 1.5rem;
+}
 /* Footer */
 footer {
-  margin-top: 8rem;
-  color: grey;
-  bottom: 0;
-  width: 100%;
+  background-color: #007bcc;
+  color: white;
+  padding: 2rem;
+  font-family: sans-serif;
 }
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-brand {
+  flex: 1 1 200px;
+}
+
+.footer-socials {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.footer-socials a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: whitesmoke;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  background-color: #007bcc;
+  border-color: #232f3e;
+}
+
+.footer-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
 
 /* Ratings */
 
