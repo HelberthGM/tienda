@@ -10,11 +10,13 @@
       <div id="contenedor">
             <div id="central">
                 <div id="login">
-                    <div class="titulo">Bienvenido(a)</div>
+                    <h1 class="titulo">Bienvenido(a)</h1>
                     <form id="loginform">
-                        <input type="text" name="usuario" placeholder="Usuario" required></input>                 
-                        <input type="password" placeholder="Contraseña" name="password" required></input>
-                        <button type="submit" title="Ingresar" name="Ingresar" onclick="window.location.href='index.html'">Login</button>
+                        <label for="username" class="sr-only">Usuario</label>
+                        <input type="text" name="usuario" placeholder="Usuario" title="usuario" required></input> 
+                        <label for="password" class="sr-only">Contraseña</label>              
+                        <input type="password" placeholder="Contraseña" name="contraseña" title="contraseña"></input>
+                        <button type="submit" title="Ingresar" name="Ingresar" onclick="window.location.href='index.html'">Ingresar</button>
                     </form>
                     <div class="pie-form">
                         <a href="#">¿Perdiste tu contraseña?</a>
